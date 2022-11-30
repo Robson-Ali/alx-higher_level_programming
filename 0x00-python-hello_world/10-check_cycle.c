@@ -42,8 +42,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 }
 
-
-
 /**
  * check_cycle - checks if a singly linked list has a cycle in it
  * @list: list head
