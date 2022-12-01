@@ -17,7 +17,8 @@ if __name__ == "__main__":
         a = int(sys.argv[1])
         b = int(sys.argv[3])
             print("{} {} {} = {}".format(a, sys.argv[2], b, ops[sys.argv[2]](a, b)))
-                                                                                if __name__ == "__main__":
+
+if __name__ == "__main__":
     """Print some of 1 and 2"""
     from add_0 import add
 
