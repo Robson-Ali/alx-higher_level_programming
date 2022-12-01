@@ -40,10 +40,12 @@ def mul(a, b):
 
 def div(a, b):
     """My division function
-                                                                                    Args:
+
+    Args:
     a: first integer
     b: second integer
-                                                                                    Returns:
+
+    Returns:
         The return value. a / b
     """
     return int(a / b)
