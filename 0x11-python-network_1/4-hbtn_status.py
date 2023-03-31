@@ -9,8 +9,8 @@ def main():
     """
     Function that fetches https://intranet.hbtn.io/status
     """
-    han = 'https://intranet.hbtn.io/status'
-    rob = requests.get(han)
+    url = 'https://intranet.hbtn.io/status'
+    rob = requests.get(url)
     print('Body response:')
     print('\t- type: {}'.format(type(rob.text)))
     print('\t- content: {}'.format(rob.text))
